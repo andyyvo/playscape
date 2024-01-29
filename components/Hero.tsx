@@ -19,8 +19,8 @@ export const Hero = () => {
       {/* content */}
       <div className="mt-24 max-w-2xl">
         <h1 className="text-7xl font-bold mb-4 tracking-wide" style={{ lineHeight: '86px' }}>Augmenting the Magic of Outdoor Play</h1>
-        <p className="text-xl mb-6">We are reimagining the outdoor play experience by building vibrant community spaces to foster collaboration and exploration for all.</p>
-        <Link href="https://www.ischool.berkeley.edu/programs/mims/projects" target="_blank" rel="noopener noreferrer"><button className="bg-white text-primary py-4 px-8 rounded-full">Learn More</button></Link>
+        <p className="text-xl mb-6">Facilitating outdoor play for all kids! We aim to create play opportunities intertwined with the existing urban environment for diverse communities, addressing declining outdoor play.</p>
+        <Link href="https://www.ischool.berkeley.edu/programs/mims/projects" target="_blank" rel="noopener noreferrer"><button className="bg-white text-black hover:bg-primary hover:text-white py-4 px-8 rounded-full">Learn More</button></Link>
       </div>
     </div>
   )

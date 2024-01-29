@@ -4,7 +4,7 @@ import { Mission } from "@/components/Mission";
 
 export default function Home() {
   return (
-    <main className="font-dm_sans">
+    <main className="font-nunito">
       <Hero />
       <Mission />
       <Journey />
