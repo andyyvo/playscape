@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import breakpointsObserver from "@/utils/breakpointsObserver";
+import Image from "next/image";
 
 export const Hero = () => {
   const [breakpoint, setBreakpoint] = useState("");
@@ -15,8 +16,24 @@ export const Hero = () => {
       <nav className="flex justify-between w-full py-6">
         {/* logo */}
         <div className="flex items-center">
-          <Link href="#" className="text-2xl">
-
+          <Link href="#" className="w-64 h-16">
+            {breakpoint === "mobile" ? (
+              <Image
+                className="w-auto h-full"
+                src={"/logo_small.svg"}
+                alt="Playscape Logo"
+                width={0}
+                height={0}
+              />
+            ) : (
+              <Image
+                className="w-auto h-full"
+                src={"/logo_large_white.svg"}
+                alt="Playscape Logo"
+                width={0}
+                height={0}
+              />
+            )}
           </Link>
         </div>
         {/* nav links */}
